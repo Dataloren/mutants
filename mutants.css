@@ -1,0 +1,1079 @@
+* {
+    box-sizing: border-box;
+}
+
+/*background*/
+
+body {
+  display: flex;
+  background:#F6F6F6;
+  font-family: 'Georgia', sans-serif;
+}
+
+/*sidenav*/
+
+#sidecontainer {
+  margin-left: 20px;
+  margin-top: 15px;
+  width: 150px;
+  height: 100vh;
+  background: #F6F6F6;
+}
+
+#sidecontainer ul {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif, normal;
+  font-size: 0.75rem;
+  line-height: 20px;
+  margin-top: 20px;
+}
+
+#sidecontainer ul li a {
+  text-decoration: none;
+  color: #0645ad;
+}
+
+#sidecontainer ul li a:hover {
+  text-decoration:underline;
+}
+
+#sidecontainer div h3 {
+  font-family: sans-serif, normal;
+  color: #444444;
+  font-size: 0.75rem;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+#sidecontainer hr {
+  width: 100px;
+  color: #D8D8D8;
+}
+
+.fa-cog {
+  color: #444444;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.edit a {
+  color: #444444;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 0.75rem;
+  margin-right: 5px;
+}
+
+.edit a:hover {
+  text-decoration: underline;
+  color:#0645ad;
+}
+
+.fa-pencil:hover {
+  color:#0645ad;
+}
+
+.fa-pencil {
+  color: #444444;
+  margin-left: 42px;
+}
+
+/*usernav*/
+
+#personal-nav {
+   position:absolute;
+   top: 0;
+   right: 40px;
+   width: 400px;
+   height: 20px;
+   margin-top: 20px;
+   margin-bottom: 80px;
+   font-size: 0.75rem;
+}
+
+#personal-nav ul {
+  display: flex;
+  justify-content: space-between;
+  color:#0645AD;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#user {
+  color: #72777D;
+}
+
+#usertalk:hover, #usercont:hover, #usercreate:hover, #login:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/*searchbar*/
+
+.container-2 .search {
+  position: relative;
+  float: right;
+  clear: right;
+  padding-left: 10px;
+  padding-right: 20px;
+  bottom: 15px;
+  background: none;
+  border-left: none;
+}
+
+.search .fa-search {
+  position: absolute;
+  top: 14px;
+  left: 280px;
+  color: #72777D;
+}
+
+.search input {
+  width: 300px;
+  height: 25px;
+  background: #F9F9F9;
+  border: 1px solid #AEB4BB;
+  border-radius: 2px;
+  text-indent: 5px;
+}
+
+/*main*/
+
+.mainpanel {
+  display: flex;
+  width: 100vw;
+  height: 100%;
+  margin-top: 70px;
+  margin-right:10px;
+  padding-left: 20px;
+}
+
+.container-2 {
+  text-align: right;
+  margin-right: 30px;
+  width: 85vw;
+}
+
+.container-1 {
+  position: absolute;
+}
+
+.container-1 nav li, .container-2 nav li {
+  display: inline;
+  border-left: 1px solid #BDE0F9;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 9px;
+  background: linear-gradient(to bottom, #feffff 18%,#d2ebf9 99%);
+  font-size: 0.75rem;
+  font-family: sans-serif;
+}
+
+
+.container-1 nav li a,
+.container-2 nav li a {
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+#box1 {
+  border: 1px solid #BDE0F9;
+  width: 85vw;
+  height: 90%;
+  background: white;
+  border-right: none;
+  margin-top: 10px;
+}
+
+.container-1 .selected, .container-2 .selected2 {
+  color: black;
+}
+
+.container-1 .first, .container-2 .first {
+  background: white;
+  padding-bottom: 10px;
+}
+
+.container-1 .selected:hover, .container-2 .selected2:hover {
+  text-decoration: none;
+}
+
+.container-1 ul li a:hover, .container-2 ul li a:hover {
+  text-decoration: underline;
+}
+
+/*main content*/
+
+h1 {
+  font-family: 'Linux Libertine', serif;
+  font-size: 1.8rem;
+  font-style:italic;
+  font-weight: 500;
+  margin: 10px;
+  padding-top: 15px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+#box1 hr {
+  width: 95%;
+  margin-left:15px;
+  margin-right: 10px;
+  color: #BDE0F9;
+}
+
+
+#bodycontent{
+  width: 95%;
+  margin: 20px;
+}
+
+.sub {
+  text-align: left;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  margin-left: -5px;
+}
+
+.communist {
+  font-weight: 700;
+  font-style: italic;
+}
+
+#text1 {
+  font-family: sans-serif;
+  font-size: 0.875rem;
+  line-height: 20px;
+  margin-top: 20px;
+  text-align: left;
+  margin-left:-5px;
+
+}
+
+#text1 a {
+  text-decoration: none;
+  color: #0645ad;
+}
+
+#text1 a:hover {
+  text-decoration: underline;
+}
+
+.two, .three, .uno, .four, .dead {
+  position: relative;
+  bottom: 0.5em;
+  font-size: 11px;
+}
+
+/*infobox*/
+
+#infobox {
+  float: right;
+  clear:right;
+  width: 300px;
+  height: 550px;
+  border: 1px solid #BDE0F9;
+  margin-right: -10px;
+  font-family: sans-serif;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+#infobox .mutants{
+  display: flex;
+  justify-content: center;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 30px;
+  padding-top: 5px;
+}
+
+#infobox img {
+   display: block;
+   margin: 0 auto;
+   padding-top: 5px;
+}
+
+#infobox p {
+  font-size: 0.6875rem;
+  line-height: 18px;
+  text-align: center;
+}
+
+table {
+  font-size: 0.8125rem;
+}
+
+table tr td {
+  padding: 5px;
+}
+
+table, tr a {
+  text-align: left;
+  text-decoration: none;
+  line-height:20px;
+}
+
+tr a {
+  color: #0645ad;
+}
+
+tr a:hover {
+  text-decoration: underline;
+}
+
+.dev, .prog, .platform, .genre, .release, .mode {
+  font-weight: 700;
+}
+
+/*popup*/
+
+#settings {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  left: 170px;
+  top: 800px;
+  width: 750px;
+  height: 400px;
+  background-color: white;
+  border: 1px solid #AEB4BB;
+  overflow: auto;
+}
+
+.content {
+  margin: auto;
+  padding: 20px 0 0 0;
+  width: 100%;
+}
+
+.popup-head {
+  margin: 10px;
+  padding-top: 30px;
+}
+
+#close {
+  color: black;
+  font-size: 1.875rem;
+  font-weight: 500;
+  float: right;
+  margin-right: 20px;
+  margin-top:-10px;
+}
+
+#close:hover {
+  cursor: pointer;
+}
+
+#settings h1 {
+  display: inline;
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 1.25rem;
+}
+
+/*popup buttons&content*/
+
+.merged {
+  display: inline;
+  margin-left: 160px;
+  font-size: 0;
+}
+
+#lang1, #font1 {
+  font-size: 0.875rem;
+  padding: 10px;
+  border: 1px solid #BFC4C9;
+  text-align: center;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.active {
+  background-color: #2A4B8D;
+  color: white;
+}
+
+.menu {
+  margin-top:15px;
+  padding: 5px;
+  width: 260px;
+  height: 170px;
+}
+
+.sidemenu-main::before {
+  margin-right: 5px;
+}
+.sidemenu-main {
+  font-size: 1.2rem;
+}
+
+.fa-desktop, .fa-keyboard-o {
+  margin-right: 5px;
+}
+
+.popup h1 {
+  float: left;
+}
+
+#display, #input {
+  float: left;
+  clear: left;
+  background: white;
+  font-size: 0.83325rem;
+  font-family: MS Shell Dlg;
+  line-height: 20px;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.sidemenu-sub {
+  float: left;
+  clear: left;
+  color: #444444;
+  font-family: sans-serif;
+  margin-left: 25px;
+  overflow: auto;
+}
+
+.sidemenu-sub:hover {
+  color: #222222;
+}
+
+.live {
+  border: 1px solid #3366BB;
+  border-left: 3px solid #3366BB;
+  width: 240px;
+}
+
+#content1 {
+   position: absolute;
+   margin-left: 300px;
+   font-family: sans-serif;
+   line-height: 25px;
+}
+
+#content2 {
+   display:none;
+   position: absolute;
+   margin-left: 300px;
+   margin-right: 100px;
+   font-family: sans-serif;
+   line-height: 25px;
+}
+
+.disp-lang, .fonts {
+  font-weight: 700;
+  color: #222222;
+  font-size: 0.875rem;
+}
+
+.same, #select, #download {
+  color: #222222;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+.missing {
+  color:#54595D;
+  font-size: 0.875rem;
+
+}
+
+.download {
+  font-size: 0.875rem;
+  margin-left: 20px;
+}
+
+/*checkbox*/
+
+.checkcontainer {
+  display: block;
+  position: relative;
+  float:left;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 1.375rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.checkcontainer input {
+  position: absolute;
+  opacity: 0;
+  cursor:pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color:#f6f6f6;
+  border: 1px solid #797979;
+  border-radius: 3px;
+}
+
+.checkcontainer:hover input ~ .checkmark {
+  border: 1px solid #3366bb;
+}
+
+.checkcontainer input:checked ~ .checkmark {
+  background-color:#3366bb;
+  -webkit-box-shadow:inset 0px 0px 0px 1px white;
+  -moz-box-shadow:inset 0px 0px 0px 1px white;
+   box-shadow:inset 0px 0px 0px 1px white;
+   border:1px solid #3366bb;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkcontainer input:checked ~ .checkmark:after {
+  display: block;
+  color: white;
+}
+
+.checkcontainer .checkmark:after {
+  left:7px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+   border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/*popup foot*/
+
+.popup-footer {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+}
+
+#apply, #cancel {
+  bottom: 10px;
+  right: 20px;
+  font-size:0.875rem;
+  padding: 10px;
+  border: 1px solid #BFC4C9;
+  text-align: center;
+  font-weight: 700;
+  margin: 5px;
+  cursor: pointer;
+  float: right;
+}
+
+.activated {
+  background: #3366BB;
+  color: white;
+}
+
+#cancel {
+  background: white;
+}
+
+#cancel:hover {
+  color: #444444;
+}
+
+#apply:hover {
+  background: #447FF8;
+}
+
+/*main - small content box*/
+
+#indices {
+  width: 140px;
+  height: 180px;
+  border: 1px solid #797979;
+  margin-left: 15px;
+  margin-top: 20px;
+  font-family: sans-serif;
+  font-size: 0.831rem;
+}
+
+#indices p {
+  text-align: center;
+  padding: 3px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+#indices p .toggle {
+  font-weight: 400;
+  padding-left: 3px;
+  color: #0645ad;
+  cursor: pointer;
+}
+
+#indices ul {
+  text-align: left;
+  line-height: 22px;
+  margin-top: 5px;
+}
+
+#indices ul .numberin {
+  margin-left: 15px;
+  padding: 3px;
+}
+
+#indices .number, .numberin {
+  padding: 3px;
+  color: #222222;
+}
+
+#indices ul li a {
+  color: #0645ad;
+}
+
+#indices ul li, #indices ul li a{
+  text-decoration: none;
+}
+
+#indices ul li:hover, #indices ul li a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+/*popup input*/
+
+#content3 {
+  display: none;
+  float: right;
+  width: 440px;
+  height: 130px;
+  margin: 5px;
+  font-family: sans-serif;
+  margin-top: -80px;
+}
+
+#content3 h2{
+  font-weight: 700;
+  font-size: 1.3125rem;
+  line-height: 26px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+
+.disabled {
+  float:left;
+  clear:left;
+  font-size: 0.875rem;
+  color: #54595d;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+#enable{
+  font-size:0.875rem;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid #BFC4C9;
+  text-align: center;
+  font-weight: 700;
+  margin: 5px;
+  cursor: pointer;
+  background: #3366BB;
+  color: white;
+  float:left;
+  clear:left;
+}
+
+#enable .pressed {
+  -webkit-box-shadow:inset 0px 0px 0px 1px white;
+  -moz-box-shadow:inset 0px 0px 0px 1px white;
+   box-shadow:inset 0px 0px 0px 1px white;
+   border:1px solid #3366bb;
+}
+
+#enable:hover {
+  background: #447FF8;
+}
+
+/*main - story*/
+
+#story, #game, #easter, #refs, #external {
+  text-align: left;
+  margin-top: 30px;
+}
+
+#story h2, #game h2, #easter h2, #refs h2 {
+  display: inline;
+  padding-left: 15px;
+  font-family: serif;
+  font-size: 1.3125rem;
+}
+
+#story hr, #game hr {
+  width:65%;
+}
+
+#story a, #game a, #easter a, #refs a{
+  text-decoration: none;
+  color: #0645ad;
+}
+
+#story a:hover, #game a:hover, #easter a:hover {
+  text-decoration: underline;
+}
+
+.editing {
+  margin-left: 10px;
+  font-size: 0.8125rem;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.tale {
+  font-family: sans-serif;
+  font-size: 0.875rem;
+  line-height: 22px;
+  margin-left: 15px;
+}
+
+
+/*main - player box*/
+
+#player{
+  width: 190px;
+  height: 208px;
+  border: 1px solid #797979;
+  margin-left: 15px;
+  display: inline-block;
+  float: left;
+  clear:left;
+  margin-right: 10px;
+}
+
+.inner img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3px;
+}
+
+.inner img:hover {
+  cursor: pointer;
+}
+
+.magnify img{
+  margin-right: 2px;
+}
+
+.thumbtext p {
+  font-family: sans-serif;
+  font-size: 0.75rem;
+  line-height: 17px;
+  margin-left: 3px;
+  margin-top: -5px;
+}
+
+/*main - game plot*/
+
+.description {
+  display: block;
+  font-family: sans-serif;
+  font-size: 0.875rem;
+  line-height: 22px;
+  width: 90%;
+}
+
+.playmenu {
+  font-family: sans-serif;
+}
+
+.playmenu h3 {
+  font-size: 1rem;
+  font-weight:700;
+  margin-top: 15px;
+}
+
+.playmenu .editing {
+  font-weight: 400;
+}
+
+.playmenu p {
+  display: block;
+  font-size: 0.875rem;
+  line-height: 22px;
+  margin-top: 10px;
+  width: 90%;
+  margin-left: 15px;
+}
+
+.playmenu .options {
+  float: left;
+  clear: left;
+  margin-top: 10px;
+  display: inline;
+}
+
+/*main - easter*/
+
+#easter {
+  width: 100%;
+  float:left;
+  clear:left;
+}
+
+#easter p{
+  font-family: sans-serif;
+  font-size: 0.875rem;
+  margin-left: 15px;
+  margin-bottom: 30px;
+  line-height: 22px;
+}
+
+/*main - references*/
+
+.ref-wrapper ol li {
+  margin-left: 15px;
+  font-family: sans-serif;
+  font-size: 0.75rem;
+  line-height: 25px;
+  list-style-position: inside;
+  list-style-type: decimal;
+}
+
+.dead a {
+  font-size:0.625rem;
+  font-style: italic;
+}
+
+.cite {
+  font-weight: 700;
+  font-size: 0.75rem;
+}
+
+#refs a:hover {
+  text-decoration: underline;
+}
+
+/*links*/
+
+.linkwrap ul {
+  list-style: disc inside;
+  margin-left: 15px;
+  color: #0645AD;
+  font-style: italic;
+  font-size: 0.875rem;
+  font-family: sans-serif;
+  line-height: 26px;
+}
+
+#external a:hover {
+  text-decoration: underline;
+}
+
+.linkwrap .atari {
+  color: black;
+  font-style: normal;
+}
+
+/*foot categories*/
+
+#categories {
+  width: 80vw;
+  height: 60px;
+  border: 1px solid	#C5C9CE;
+  margin-left: 20px;
+  font-family: sans-serif;
+  font-size: 0.875rem;
+  margin-top: 15px;
+  background-color: #F8F9FA;
+}
+
+.footbox {
+  padding-top: 8px;
+}
+
+.footbox ul {
+  margin-left: 5px;
+}
+
+.footbox ul li  {
+  display: inline;
+  line-height: 20px;
+}
+
+.footbox ul li:after {
+  content: '|';
+  color: #C5C9CE;
+}
+
+.footbox ul li a {
+  color: #0645ad;
+  padding: 5px;
+}
+
+/*footer*/
+
+#footer {
+  width: 1173px;
+  height: 160px;
+  padding: 20px;
+}
+
+.footerwrapper {
+  text-align: left;
+  font-family: sans-serif;
+  font-size: 0.6875rem;
+  color: #222222;
+  line-height: 15px;
+}
+
+.footerwrapper .last {
+  padding-bottom: 10px;
+}
+
+.footerwrapper li a {
+  color: #0645ad;
+  text-decoration: none;
+}
+
+.footlinks {
+  margin-top: 20px;
+}
+
+.footlinks li {
+  display: inline;
+  margin-right: 5px;
+
+}
+
+.footlinks li a {
+  color: #0645ad;
+  text-decoration: none;
+}
+
+.footicons {
+  float: right;
+  margin-right: 10px;
+  margin-top: -20px;
+}
+
+.footicons li {
+  display: inline;
+}
+
+/*media queries*/
+
+@media only screen and (max-width: 768px) and (min-width: 320px){
+
+
+  #box1 hr {
+    width: auto;
+    opacity: 0.5;
+  }
+
+  .container-1 nav, .container-2   nav, #sidecontainer, #personal-nav, #indices, #footer, #categories  {
+    display: none;
+  }
+  
+  #text1, #story, #easter, .playmenu {
+    text-align: justify;
+  }
+
+ #story hr, #game hr, #refs hr {
+    width: auto;
+    margin: 1rem;
+    opacity: 0.5;
+  }
+  
+  #box1 {
+    border: none;
+    margin: 1rem;
+  }
+
+  #bodycontent {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+  }
+
+  #infobox {
+    width:auto;
+    height: auto;
+  }
+
+  #infobox .mutants {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  #player {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    float: none;
+    margin-left:auto;
+    margin-right: auto;
+
+  }
+
+  #game {
+    margin:1rem;
+  }
+  
+  #bodycontent img {
+    width: auto;
+    height: auto;
+    margin:auto;
+  }
+
+  #bodycontent .sub {
+    display: none;
+  }
+
+
+  .description {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    margin: 1.5rem;
+  }
+
+  .playmenu h3 {
+    margin-left: 1.2rem;
+  }
+
+  .playmenu {
+    margin-left: 0.5rem;
+    margin-right: -0.5rem;
+   }
+
+  #easter, #story, #refs {
+    line-height: 22px;
+    width: auto;
+    margin: 1.5rem;
+  }
+
+  #easter {
+    margin-bottom: -10px;
+  }
+
+
+}
